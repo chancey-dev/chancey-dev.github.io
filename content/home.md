@@ -1,5 +1,5 @@
 Title: 18% DISCOUNT DAY 1
-Date 2020-01-23 02:07
+Date: 2020-01-23 02:07
 Category: main
 tags welcome
 
