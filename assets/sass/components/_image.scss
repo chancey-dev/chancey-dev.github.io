@@ -58,3 +58,27 @@
 			}
 		}
 	}
+
+	.coruimage {
+		@include padding(6em, 5em, (1em, 0, 0, 0));
+		@include vendor('transition', (
+			'opacity 1.25s ease',
+			'transform 0.5s ease'
+		));
+		@include vendor('transition-delay', '0s');
+		display: block;
+		margin: 0 0 (_size(element-margin) * 0.75) 0;
+
+		img {
+			display: block;
+			margin: 0 auto;
+			max-width: 75%;
+		}
+		}
+
+		display: inline-block;
+		position: relative;
+
+		display: block;
+		width: 100%;
+	}
