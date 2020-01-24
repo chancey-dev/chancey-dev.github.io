@@ -12,7 +12,7 @@ If you're like me, you never want to pay full price for a game. Not even one wit
 GreenManGaming currently lets you buy [Temtem](https://www.greenmangaming.com/games/temtem-pc/) for 18% off the retail price. Just add [Temtem](https://www.greenmangaming.com/games/temtem-pc/) to your cart and use <b>UPCOMING18</b> at checkout. It really is the best way to purchase the game. 
 
 <span> 
-    <img margin=" 0 auto" src="{attach}gmgcart.png" alt=""> 
+    <img width="90%" src="{attach}gmgcart.png" alt=""> 
 </span>
 
 
