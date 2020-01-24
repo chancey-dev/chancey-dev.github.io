@@ -2,7 +2,7 @@
 
 
 AUTHOR = 'Jonathan Chancey'
-SITENAME = "Temtem.tech"
+SITENAME = "temtem.tech"
 SITESUBTITLE = 'Your One Stop Shop for Temtem Content'
 SITEURL = 'http://temtem.tech'
 TIMEZONE = "US/Pacific"
@@ -13,6 +13,8 @@ RELATIVE_URLS = True
 PLUGIN_PATHS = ['plugins']
 PLUGINS = [
     'assets',
+    'pelican_advance_embed_tweet',
+    'neighbors',
 ]
 
 GITHUB_URL = 'https://github.com/chancey-dev/'
@@ -75,15 +77,20 @@ PAGINATED_TEMPLATES = (('base',))
 
 
 # Eevee config
-
-MENUITEMS = (('Contact', '/contact/'), ('Software', '/software/'),
-             ('Donate', '/donate/'))
+# MENUITEMS = (('Contact', '/contact/'), ('Software', '/software/'),
+#              ('Donate', '/donate/'))
 DISPLAY_PAGES_ON_MENU = True
 
-DISCLAIMER = 'Powered by love &amp; rainbow sparkles.'
+DISCLAIMER = 'All trademarks are the property of their respective owners. Powered by love &amp; marshmallow fluffs.'
 
 
-USE_AUTHOR_CARD = True
+# THEME_PRIMARY = 'light_blue'
+# THEME_ACCENT = 'deep_purple'
+
+THEME_PRIMARY = 'blue_grey'
+THEME_ACCENT = 'deep_purple'
+
+USE_AUTHOR_CARD = False
 AUTHOR_CARD_DESCRIPTION = 'My name is Kura and I break things.'
 
 AUTHOR_CARD_SOCIAL = (('<i class="fa fa-github aria-hidden="true"></i>',
